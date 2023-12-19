@@ -13,10 +13,10 @@ public class App {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Quel est votre premier chiffre ?");
+        System.out.println("Quel est votre premier nombre ?");
         float nb1 = scanner.nextFloat();
 
-        System.out.println("Quel est votre deuxième chiffre ?");
+        System.out.println("Quel est votre deuxième nombre ?");
         float nb2 = scanner.nextFloat();
 
         System.out.println("La somme de vos deux nombres est : " + (nb1+nb2));
